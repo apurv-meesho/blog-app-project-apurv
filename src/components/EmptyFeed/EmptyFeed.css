@@ -1,0 +1,24 @@
+.create-post-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.create-post-container {
+  text-align: center;
+}
+
+.create-post-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #666699;
+  color: #fff;
+  text-decoration: none;
+}
+
+.create-post-button:hover {
+  background-color: #0056b3;
+}

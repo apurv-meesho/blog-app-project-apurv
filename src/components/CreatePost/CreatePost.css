@@ -1,0 +1,138 @@
+body {
+  background: #eceff1;
+}
+.container {
+  margin: 1rem auto;
+  max-width: 600px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.blog-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+
+  align-self: flex-start;
+}
+
+input[type="text"],
+select,
+textarea,
+input[type="file"] {
+  margin-top: 5px;
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+}
+
+.radio-label {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  margin-top: 5px;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus,
+input[type="file"]:focus {
+  /* outline: none; */
+  border-color: #007bff;
+}
+
+textarea {
+  height: 150px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+
+  width: auto;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.star {
+  color: red;
+  font-size: 1rem;
+}
+
+img {
+  max-width: 750px;
+  max-height: 375px;
+}
+
+.theme-checkboxes {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+#select-image {
+  color: black;
+  font-weight: normal;
+
+  border: solid 1px black;
+  padding: 2px;
+  cursor: pointer;
+}
+
+#select-image:hover {
+  background-color: #eceff1;
+}
+
+#image-label {
+  margin-bottom: 8px;
+}
+
+#img-name {
+  margin: 3px;
+}
+
+.img-info {
+  display: flex;
+  margin-bottom: 8px;
+  border: 1px solid black;
+}
+
+#img-form {
+  max-width: 100%;
+  max-height: 100%;
+}
